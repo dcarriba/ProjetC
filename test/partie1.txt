@@ -1,0 +1,96 @@
+AUBE
+VISION
+GAUCHE #commentaire inutile
+VISION
+INVOCATION
+
+
+DX=-1
+DY=+0
+{bottes en peau de crocro, V+1, chaussures }
+VISION
+GAUCHE
+VISION
+DX=+0
+DY=-1
+ROCHER
+VISION
+HAUT
+
+VISION
+GAUCHE
+VISION
+DX=-1
+DY=+2
+dx=-1
+dy=+2
+
+X=2
+Y=0
+
+ROCHER
+HAUT
+
+
+
+VISION
+INVOCATION
+
+X=1
+Y=1
+<Petit Python, 5, 25>
+VISION
+HAUT
+
+X=10
+Y=10
+ROCHER
+VISION
+DX=+0
+DY=+1
+(gnou, 100, "Animal élégant et raffiné, symbole de liberté")
+VISION
+
+INVOCATION
+BAS
+VISION
+INVOCATION
+
+X=10
+Y=5
+{lance en bois, F-5, armes}
+VISION
+
+TRIER
+
+DX=-0
+DY=+1
+{bottes Ferrari, V+2, chaussures}
+VISION
+BAS
+VISION
+
+INVOCATION
+TRIER
+
+X=2
+Y=8
+<Moyen Python, 25, 100>
+X=4
+Y=8
+<Moyen Python, 25, 100>
+X=6
+Y=8
+<Moyen Python, 25, 100>
+X=7
+Y=8
+<Moyen Python, 25, 100>
+VISION
+
+IA
+VISION
+
+INVOCATION
+
+
+CREPUSCULE  

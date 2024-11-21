@@ -1,0 +1,38 @@
+AUBE
+
+INVOCATION
+DX=-1
+DY=+0
+{bottes en peau de crocro, V+10, chaussures} # Vitesse
+VISION
+GAUCHE
+VISION
+DX=-0
+DY=+1
+{slip en peau de mamouth, P+10, protections} # Points de vie
+DX=-0
+DY=+3
+{lance en bois, F+5, armes} # Force
+VISION
+BAS
+VISION
+INVOCATION
+TRIER
+X=6
+Y=10
+<Squelette, 15, 45>
+VISION
+DROITE
+VISION
+dx=+1
+dy=+1
+{slip ADIDAS, P+20, protections} # Points de vie
+dx=+1
+dy=+0
+{slip NIKE, P+15, protections} # Points de vie
+VISION
+HAUT
+VISION
+INVOCATION
+TRIER
+CREPUSCULE

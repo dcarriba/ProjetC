@@ -1,0 +1,21 @@
+AUBE
+
+ROCHER
+VISION
+GAUCHE
+VISION
+DX=-1
+DY=+0
+{Porsche 911, V+100, voiture}
+GAUCHE
+VISION
+
+INVOCATION
+X=0
+Y=0
+{lance en bois, F+5, armess}
+X=1
+Y=0
+{bottes en peau de crocro, V+10, schaussures}
+VISION
+CREPUSCULE
