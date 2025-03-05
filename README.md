@@ -1,34 +1,40 @@
 # ProjetC
+
 Projet de Programmation C - L2 info S3
 
-MEMBRE DU GROUPE : Daniel CARRIBA NOSRATI
+### MEMBRE DU GROUPE :
 
+Daniel CARRIBA NOSRATI
 
-CHOSES IMPLÉMENTÉES ET PAS IMPLÉMENTÉES :
+### CHOSES IMPLÉMENTÉES ET PAS IMPLÉMENTÉES :
 
-Choses implémentées:
+#### Choses implémentées:
+
 (Basique) :
 - Affichage de la carte
 - Déplacement de Rahan (avec une vitesse quelconque (de 1 à n))
-- Jouer une partie à partir d’une description donnée sur la entree standard,
+- Jouer une partie à partir d'une description donnée sur la entree standard,
 ainsi que jouer une partie à partir d'un ficher donné. (Les Formats Normal et Simple fonctionnent)
 - Gestion des rochers
+
 (Moyen) :
 - Gestion des monstres et des combats
 - Gestion de la nourriture
 - Gestion des équipements (avec pas plus d'un équipement par classe d'équipement)
 - Fin de la partie à la commande CREPUSCULE (ou C si Format Simple), ainsi que Fin de la partie lorsque Rahan meurt.
+
 (Avancé) :
 - une IA (description de son fonctionnement à la fin de ce ficher)
 
-Choses Pas implémentées:
+#### Choses Pas implémentées:
+
 (Avancé) :
-- La carte s’agrandit lorsque Rahan arrive au bord.
-- Possibilité d’annuler les dernières commandes.
+- La carte s'agrandit lorsque Rahan arrive au bord.
+- Possibilité d'annuler les dernières commandes.
 - Faire des sauvegardes/restaurations.
 
 
-DANS LE ZIP :
+### DANS LE ZIP :
 
 - 8 fichiers .c et 7 fichiers .h :
 	- programme.c (le fichier .c principal avec la fonction "main()")
@@ -58,9 +64,9 @@ DANS LE ZIP :
 - Ce document LISEZMOI.txt
 
 
-DESCRIPTION :
+### DESCRIPTION :
 
-I] Structures et Types définies:
+#### I] Structures et Types définies:
 
 1) le type "grid" (définie dans grid.h) :
 Cet type renomme char** en grid.
@@ -97,7 +103,7 @@ Cette structure sert à stocker les informations des équipements.
 Cette structure sert à stocker toutes les équipements dans une mémoire allouée, ansi que de stocker les informations de
 la taille de cette mémoire allouée et du nombre n de équipements effectivement stocké dans la mémoire.
 
-II] Description des fichiers .c :
+#### II] Description des fichiers .c :
 
 1) programme.c :
 C'est le fichier .c principal avec la fonction "main()".
@@ -135,7 +141,7 @@ C'est à dire les fonctions pour la création des équipements, les fonctions po
 Votre fichier avec vos fonctions :
 "stdprof_malloc()", "stdprof_free()", etc.
 
-III] Description des fichiers de test :
+#### III] Description des fichiers de test :
 
 1) partie1.txt :
 Une partie normale avec des monstres, de la nourriture, des equipements, des combats, etc.
@@ -168,7 +174,7 @@ Une autre partie normale avec des monstres, de la nourriture, des equipements, d
 La partie se finie de manière normale, grâce a la commande CREPUSCULE.
 
 
-REMARQUES :
+#### REMARQUES :
 
 1) Classes des équipements :
 - Les seules classes valables pour les équipements sont "chaussures", "protections" et "armes".
